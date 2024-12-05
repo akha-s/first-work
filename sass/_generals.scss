@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    object-fit: cover;
+}
+
+body {
+    background-color: $bg-color;
+    color: $main-color;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 80px 115px;
+}
