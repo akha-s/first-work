@@ -1,0 +1,181 @@
+@font-face {
+  font-family: black;
+  src: url("../fonts/WorkSans-Black.woff") format(woff), url("../fonts/WorkSans-Black.woff2") format(woff2);
+}
+@font-face {
+  font-family: extrabold;
+  src: url("../fonts/WorkSans-ExtraBold.woff") format(woff), url("../fonts/WorkSans-ExtraBold.woff2") format(woff2);
+}
+@font-face {
+  font-family: bold;
+  src: url("../fonts/WorkSans-Bold.woff") format(woff), url("../fonts/WorkSans-Bold.woff2") format(woff2);
+}
+@font-face {
+  font-family: semibold;
+  src: url("../fonts/WorkSans-SemiBold.woff") format(woff), url("../fonts/WorkSans-SemiBold.woff2") format(woff2);
+}
+@font-face {
+  font-family: medium;
+  src: url("../fonts/WorkSans-Medium.woff") format(woff), url("../fonts/WorkSans-Medium.woff2") format(woff2);
+}
+@font-face {
+  font-family: regular;
+  src: url("../fonts/WorkSans-Regular.woff") format(woff), url("../fonts/WorkSans-Regular.woff2") format(woff2);
+}
+@font-face {
+  font-family: light;
+  src: url("../fonts/WorkSans-Light.woff") format(woff), url("../fonts/WorkSans-Light.woff2") format(woff2);
+}
+@font-face {
+  font-family: extralight;
+  src: url("../fonts/WorkSans-ExtraLight.woff") format(woff), url("../fonts/WorkSans-ExtraLight.woff2") format(woff2);
+}
+@font-face {
+  font-family: thin;
+  src: url("../fonts/WorkSans-Thin.woff") format(woff), url("../fonts/WorkSans-Thin.woff2") format(woff2);
+}
+@font-face {
+  font-family: number;
+  src: url("../fonts/SpaceMono-Bold.woff") format(woff), url("../fonts/SpaceMono-Bold.woff2") format(woff2);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body {
+  background-color: #2B2B2B;
+  color: white;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 80px 115px;
+}
+
+.header__wrapper {
+  margin: -60px -65px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 329px;
+}
+
+.header__logo {
+  width: 243px;
+  height: 32px;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.header__link {
+  color: white;
+  font-size: 1rem;
+  font-family: semibold;
+  padding: 12px 20px;
+  display: inline-block;
+}
+
+.longer-link {
+  width: 174px;
+  display: inline-block;
+}
+
+.header__btn {
+  padding: 19px 30px 19px 62px;
+  border-radius: 20px;
+  background-color: #A259FF;
+  color: white;
+  border: none;
+  font-family: semibold;
+  font-size: 1rem;
+  width: 152px;
+  position: relative;
+}
+
+.header__btn::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("../../assents/User.png");
+  background-size: cover;
+  position: absolute;
+  top: calc(50% - 10px);
+  left: 30px;
+}
+
+.second__title {
+  font-family: semibold;
+  font-size: 38px;
+}
+
+.second__text {
+  font-family: regular;
+  font-size: 22px;
+  margin: 10px 0 60px;
+}
+
+.second__menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.second__item {
+  width: 330px;
+  height: 525px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.second__bigger-img {
+  width: 330px;
+  height: 330px;
+}
+
+.second__imgs {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.second__img {
+  width: 100px;
+  height: 100px;
+}
+
+.second__more {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  background-color: #A259FF;
+  font-size: 22px;
+  font-family: number;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+}/*# sourceMappingURL=style.css.map */

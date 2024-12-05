@@ -1,20 +1,43 @@
 .header__wrapper {
-    padding: 20px -65px;
-    @include d-flex( , 329px);
+  margin: -60px -65px;
+  @include d-flex(flex-start, 329px);
 }
 
 .header__logo {
-    width: 243px;
-    height: 32px;
+  width: 243px;
+  height: 32px;
 }
 
 .header__menu {
-    @include d-flex( , 10px);
+  @include d-flex(flex-start, 10px);
 }
 
 .header__link {
-    color: $main-color;
-    font-size: 1rem;
-    padding: 12px 20px;
+  color: $main-color;
+  font-size: 1rem;
+  font-family: semibold;
+  padding: 12px 20px;
+  display: inline-block;
 }
 
+.longer-link {
+  width: 174px;
+  display: inline-block;
+}
+
+.header__btn {
+  @include btn(19px 30px 19px 62px, $secondary-color, $main-color, none);
+  width: 152px;
+  position: relative;
+}
+
+.header__btn::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url("../../assents/User.png");
+    background-size: cover;
+    position: absolute;
+    top: calc(50% - 10px);
+    left: 30px;
+}
