@@ -1,0 +1,88 @@
+.clients__top_wrapper {
+  @include d-flex(flex-start, 100px);
+}
+
+.clients__top_txt {
+  width: 703px;
+}
+
+.clients__top_txt-1 {
+  font-size: 38px;
+  font-family: semibold;
+}
+
+.clients__top_txt-2 {
+  margin-top: 10px;
+  font-size: 22px;
+  font-family: regular;
+  width: 703px;
+}
+
+.clients__btn {
+  @include btn(
+    19px 50px 19px 82px,
+    transparent,
+    $main-color,
+    2px solid $secondary-color
+  );
+  position: relative;
+  width: 247px;
+}
+
+.clients__btn::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("../../assents/rocket.png");
+  background-size: cover;
+  position: absolute;
+  top: calc(50% - 10px);
+  left: 50px;
+}
+
+// clients start
+
+.clients__section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.clients__colspan__wrapper {
+   @include d-flex(flex-start, 30px);
+}
+
+.client {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: $li-color;
+  width: 240px;
+  height: 238px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.client::before {
+  content: "1";
+  color: #858584;
+  width: 30px;
+  height: 30px;
+  padding: 4px 10px;
+  background-color: $bg-color;
+  color: $main-color;
+  border-radius: 50%;
+  position: absolute;
+  top: 18px;
+  left: 20px;
+}
+
+.client__static {
+    @include d-flex(flex-start, 10px);
+}
+
+.client__static-1 {
+  color: #858584;
+}

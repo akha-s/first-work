@@ -1,50 +1,61 @@
 .second__title {
-    font-family: semibold;
-    font-size: 38px;
+  font-family: semibold;
+  font-size: 38px;
 }
 
 .second__text {
-    font-family: regular;
-    font-size: 22px;
-    margin: 10px 0 60px;
+  font-family: regular;
+  font-size: 22px;
+  margin: 10px 0 60px;
 }
 
 .second__menu {
-    @include d-flex(flex-start, 30px);
+  @include d-flex(flex-start, 30px);
 }
 
 .second__item {
-    width: 330px;
-    height: 525px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  width: 330px;
+  height: 525px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .second__bigger-img {
-    width: 330px;
-    height: 330px;
+  width: 330px;
+  height: 330px;
 }
 
 .second__imgs {
-    @include d-flex(flex-start, 15px);
+  @include d-flex(flex-start, 15px);
 }
 
 .second__img {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
 .second__more {
-    width: 100px;
-    height: 100px;
-    border-radius: 20px;
-    background-color: $secondary-color;
-    font-size: 22px;
-    font-family: number;
-    @include d-flex(center);
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  background-color: $secondary-color;
+  font-size: 22px;
+  font-family: number;
+  @include d-flex(center);
 }
 
 .second__subtitle {
-    font-size: ;
+  font-size: 22px;
+  font-family: semibold;
+}
+
+.second__subtext {
+  font-size: 1rem;
+  font-family: regular;
+}
+
+.second__acc {
+    @include d-flex(flex-start, 12px);
+    margin-top: -5px;
 }

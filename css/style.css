@@ -124,6 +124,119 @@ body {
   left: 30px;
 }
 
+.hero__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.hero__text_big {
+  font-family: semibold;
+  font-size: 67px;
+}
+
+.hero__text_information {
+  font-size: 22px;
+  font-family: regular;
+  width: 510px;
+  margin: 20px 0 30px;
+}
+
+.hero__btn {
+  padding: 19px 50px 19px 82px;
+  border-radius: 20px;
+  background-color: #A259FF;
+  color: white;
+  border: 1px solid transparent;
+  font-family: semibold;
+  font-size: 1rem;
+  position: relative;
+}
+
+.hero__btn::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("../../assents/rocket.png");
+  background-size: cover;
+  position: absolute;
+  top: calc(50% - 10px);
+  left: 50px;
+}
+
+.hero__static {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0;
+  margin-top: 30px;
+}
+
+.hero__static_sale {
+  font-size: 26px;
+  width: 150px;
+  font-family: regular;
+}
+
+.hero__static_auctions {
+  font-size: 26px;
+  width: 150px;
+  font-family: regular;
+}
+
+.hero__static_artists {
+  font-size: 26px;
+  width: 150px;
+  font-family: regular;
+}
+
+.first__number {
+  font-family: number;
+}
+
+.hero_section__image__wrapper {
+  border-radius: 30px;
+  background-color: #3B3B3B;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.first__img {
+  width: 510px;
+  height: 401px;
+}
+
+.hero__avatar_wrp {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 22px 20px;
+}
+
+.hero__avatar__p {
+  font-size: 22px;
+  font-family: semibold;
+}
+
+.hero__avatar__p-2 {
+  font-size: 1rem;
+  font-family: regular;
+  height: 22px;
+}
+
+.avatar {
+  width: 20px;
+  height: 20px;
+}
+
+.alone__avatar_wrp {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
 .second__title {
   font-family: semibold;
   font-size: 38px;
@@ -178,4 +291,147 @@ body {
   align-items: center;
   justify-content: center;
   gap: 0;
+}
+
+.second__subtitle {
+  font-size: 22px;
+  font-family: semibold;
+}
+
+.second__subtext {
+  font-size: 1rem;
+  font-family: regular;
+}
+
+.second__acc {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  margin-top: -5px;
+}
+
+.clients__top_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 100px;
+}
+
+.clients__top_txt {
+  width: 703px;
+}
+
+.clients__top_txt-1 {
+  font-size: 38px;
+  font-family: semibold;
+}
+
+.clients__top_txt-2 {
+  margin-top: 10px;
+  font-size: 22px;
+  font-family: regular;
+  width: 703px;
+}
+
+.clients__btn {
+  padding: 19px 50px 19px 82px;
+  border-radius: 20px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid #A259FF;
+  font-family: semibold;
+  font-size: 1rem;
+  position: relative;
+  width: 247px;
+}
+
+.clients__btn::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("../../assents/rocket.png");
+  background-size: cover;
+  position: absolute;
+  top: calc(50% - 10px);
+  left: 50px;
+}
+
+.clients__section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.clients__colspan__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.client {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #3B3B3B;
+  width: 240px;
+  height: 238px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.client::before {
+  content: "1";
+  color: #858584;
+  width: 30px;
+  height: 30px;
+  padding: 4px 10px;
+  background-color: #2B2B2B;
+  color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 18px;
+  left: 20px;
+}
+
+.client__static {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.client__static-1 {
+  color: #858584;
+}
+
+.browse__title {
+  font-family: semibold;
+  font-size: 38px;
+  margin-bottom: 60px;
+}
+
+.browse__menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+  flex-wrap: wrap;
+  width: 1050px;
+}
+
+.browse__item {
+  width: 240px;
+  height: 316px;
+  border-radius: 20px;
+  background-color: #3B3B3B;
+}
+
+.browse__subtitle {
+  font-family: semibold;
+  font-size: 22px;
+  padding: 20px 30px;
 }/*# sourceMappingURL=style.css.map */
