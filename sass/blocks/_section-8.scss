@@ -1,0 +1,47 @@
+.weekly__wrapper {
+  padding: 60px;
+  @include d-flex(flex-start, 80px);
+  background-color: $li-color;
+  border-radius: 20px;
+}
+
+.weekly__title {
+  font-family: semibold;
+  font-size: 38px;
+}
+
+.weekly__text {
+  font-family: regular;
+  font-size: 22px;
+  margin: 10px 0 40px;
+}
+
+.weekly__border {
+  width: 425px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: $main-color;
+  @include d-flex(space-between);
+}
+
+.weekly__label {
+    padding: 19px 20px;
+    color: $bg-color;
+    font-family: regular;
+    font-size: 1rem;
+}
+
+.weekly__btn {
+    @include btn(20px 50px 20px 82px, $secondary-color, $main-color);
+}
+
+.weekly__btn::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url("../../assents/weekly.sms.png");
+    background-size: cover;
+    position: absolute;
+    top: calc(50% - 10px);
+    left: 50px;
+}

@@ -1,0 +1,96 @@
+.discover__info {
+    @include d-flex(space-between);
+    margin-bottom: 60px;
+}
+
+.discover__title {
+    font-family: semibold;
+    font-size: 38px;
+}
+
+.discover__text {
+    font-family: regular;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.discover__btn {
+    @include btn(19px 50px 19px 82px, $bg-color, $secondary-color, 2px solid $secondary-color);
+}
+
+.discover__btn::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: calc(50% - 10px);
+    left: 50px;
+    background-image: url("../../assents/discover.eye.png");
+    background-size: cover;
+}
+
+.discover__menu {
+    @include d-flex(space-between);
+}
+
+.discover__item {
+    width: 320px;
+    height: 369px;
+    background-color: $li-color;
+    border-radius: 20px;
+}
+
+.discover__img {
+    width: 320px;
+    height: 196px;
+    border-radius: 20px 20px 0 0 ;
+}
+
+.discover__miniinfo {
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.discover__subtitle {
+    font-size: 22px;
+    font-family: semibold;
+    margin-bottom: 5px;
+}
+
+.discover-acc__box {
+    @include d-flex(flex-start, 12px);
+}
+
+.discover-acc__img {
+    width: 24px;
+    height: 24px;
+}
+
+.discover__subtext {
+    font-family: regular;
+    font-size: 1rem;
+}
+
+.discover__settings {
+    @include d-flex(space-between);
+}
+
+.discover__minititle {
+    color: #858584;
+    font-size: 12px;
+    font-family: regular;
+    margin-bottom: 8px;
+}
+
+.discover__minitext {
+    font-size: 1rem;
+    font-family: number;
+}
+
+.set-end {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
